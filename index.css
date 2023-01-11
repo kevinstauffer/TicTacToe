@@ -1,0 +1,26 @@
+table {
+    margin: 10vw auto;
+    text-align: center;
+    width: 50vw;
+    height: 50vw;
+    background-color: rgb(36, 35, 35);
+    color: aliceblue;
+}
+
+td {
+    background-color: rgb(212, 207, 207);
+    font-size: 40px;
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+td:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+body {
+    margin: auto 0;
+    text-align: center;
+}
