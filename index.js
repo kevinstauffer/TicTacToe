@@ -10,11 +10,7 @@ let XorO88 = document.getElementById('r8');
 let XorO99 = document.getElementById('r9');
 
 function winner(XorO) {
-    if (XorO == 'x') {
-        alert('X hat gewonnen')
-    } else {
-        alert('O hat gewonnen')
-    }
+    alert(`${XorO.toUpperCase ()} hat gewonnen`)
     location.reload()
 }
 
